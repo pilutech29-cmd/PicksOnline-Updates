@@ -1,0 +1,5 @@
+# Créditos de los juegos gratis de PicksOnline Juegos
+# Formato:  nombre-del-archivo = Nombre del juego | Autor | Licencia | Página oficial
+# Solo juegos con licencias que permitan compartirlos: MIT, GPL, CC BY, CC BY-SA, CC0 o dominio público.
+
+ucity.gbc = µCity | Antonio Niño Díaz | GPLv3 + CC BY-SA 4.0 | https://github.com/AntonioND/ucity
