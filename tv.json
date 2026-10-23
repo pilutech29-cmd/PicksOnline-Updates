@@ -1,17 +1,89 @@
 {
+ "radio": [
+  {
+   "nombre": "Simití Original Stereo 89.0 FM",
+   "tipo": "audio",
+   "url": "https://uk16freenew.listen2myradio.com/live.mp3?typeportmount=s1_10902_stream_459185054",
+   "imagen": "https://simitioriginalstereo.radio12345.com/users.img/2975070/1596378477/icon_thumb_80_1596378477.jpg",
+   "categoria": "Simití, Bolívar",
+   "detalle": "Simití, Bolívar · La emisora del pueblo",
+   "color": "#145A4A"
+  }
+ ],
  "envivo": [
-  {"nombre": "Ditu (Caracol)", "tipo": "app", "categoria": "Colombia", "detalle": "Caracol TV y Noticias Caracol en vivo, gratis", "color": "#0047BA"},
-  {"nombre": "RTVCPlay", "tipo": "app", "paquete": "co.rtvcplay", "categoria": "Colombia", "detalle": "Señal Colombia, Canal Institucional y RTVC Noticias en vivo", "color": "#E30613"},
-  {"nombre": "Canal RCN", "tipo": "app", "categoria": "Colombia", "detalle": "Señal en vivo del Canal RCN", "color": "#003DA5"},
-  {"nombre": "Noticias Caracol", "tipo": "app", "paquete": "com.noticias.caracol.app", "categoria": "Noticias", "detalle": "Noticiero en vivo", "color": "#0A2F6B"},
-  {"nombre": "Pluto TV", "tipo": "app", "paquete": "tv.pluto.android", "categoria": "Canales", "detalle": "Más de 100 canales en vivo gratis", "color": "#2D2D2D"}
+  {
+   "nombre": "Ditu (Caracol)",
+   "tipo": "app",
+   "categoria": "Colombia",
+   "detalle": "Caracol TV y Noticias Caracol en vivo, gratis",
+   "color": "#0047BA"
+  },
+  {
+   "nombre": "RTVCPlay",
+   "tipo": "app",
+   "paquete": "co.rtvcplay",
+   "categoria": "Colombia",
+   "detalle": "Señal Colombia, Canal Institucional y RTVC Noticias en vivo",
+   "color": "#E30613"
+  },
+  {
+   "nombre": "Canal RCN",
+   "tipo": "app",
+   "categoria": "Colombia",
+   "detalle": "Señal en vivo del Canal RCN",
+   "color": "#003DA5"
+  },
+  {
+   "nombre": "Noticias Caracol",
+   "tipo": "app",
+   "paquete": "com.noticias.caracol.app",
+   "categoria": "Noticias",
+   "detalle": "Noticiero en vivo",
+   "color": "#0A2F6B"
+  },
+  {
+   "nombre": "Pluto TV",
+   "tipo": "app",
+   "paquete": "tv.pluto.android",
+   "categoria": "Canales",
+   "detalle": "Más de 100 canales en vivo gratis",
+   "color": "#2D2D2D"
+  }
  ],
  "apps": [
-  {"nombre": "Pluto TV", "paquete": "tv.pluto.android", "detalle": "Cientos de canales gratis", "color": "#2D2D2D"},
-  {"nombre": "Tubi", "paquete": "com.tubitv", "detalle": "Películas y series gratis", "color": "#FA541C"},
-  {"nombre": "Plex", "paquete": "com.plexapp.android", "detalle": "Canales y películas gratis", "color": "#E5A00D"},
-  {"nombre": "ViX", "paquete": "com.univision.prendetv", "detalle": "Novelas, series y canales", "color": "#FF5900"},
-  {"nombre": "Canela.TV", "detalle": "Películas, series y canales en español", "color": "#E4002B"},
-  {"nombre": "Rakuten TV", "detalle": "Películas y canales gratis con anuncios", "color": "#BF0000"}
+  {
+   "nombre": "Pluto TV",
+   "paquete": "tv.pluto.android",
+   "detalle": "Cientos de canales gratis",
+   "color": "#2D2D2D"
+  },
+  {
+   "nombre": "Tubi",
+   "paquete": "com.tubitv",
+   "detalle": "Películas y series gratis",
+   "color": "#FA541C"
+  },
+  {
+   "nombre": "Plex",
+   "paquete": "com.plexapp.android",
+   "detalle": "Canales y películas gratis",
+   "color": "#E5A00D"
+  },
+  {
+   "nombre": "ViX",
+   "paquete": "com.univision.prendetv",
+   "detalle": "Novelas, series y canales",
+   "color": "#FF5900"
+  },
+  {
+   "nombre": "Canela.TV",
+   "detalle": "Películas, series y canales en español",
+   "color": "#E4002B"
+  },
+  {
+   "nombre": "Rakuten TV",
+   "detalle": "Películas y canales gratis con anuncios",
+   "color": "#BF0000"
+  }
  ]
 }
