@@ -16,6 +16,15 @@
   ],
   "envivo": [
     {
+      "nombre": "Canal Sur TV",
+      "tipo": "web",
+      "url": "https://www.surtvcanaldelmagdalenamedio.com/",
+      "imagen": "https://www.surtvcanaldelmagdalenamedio.com/wp-content/uploads/2025/10/cropped-IMG_0336-scaled-2.png",
+      "categoria": "Sur de Bolívar",
+      "detalle": "Canal del Magdalena Medio en vivo",
+      "color": "#0E5AA7"
+    },
+    {
       "nombre": "Ditu (Caracol)",
       "tipo": "app",
       "categoria": "Colombia",
