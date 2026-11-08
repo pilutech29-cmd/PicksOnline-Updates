@@ -1,0 +1,37 @@
+{
+  "_instrucciones": "Contenido de la app Simití TV. 'envivo' es el canal principal: tipo hls (enlace .m3u8), iframe (por ejemplo https://www.youtube.com/embed/live_stream?channel=ID_DEL_CANAL&autoplay=1) o embed (reproductor tipo Teveo). En 'secciones' cada item puede ser: audio (radio), video/hls (video), aviso (negocio, con whatsapp) o nota (noticia). Después de guardar, la app lo muestra sola.",
+  "envivo": {
+    "nombre": "Simití TV en vivo",
+    "tipo": "hls",
+    "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "detalle": "Señal de prueba · pronto el canal del pueblo"
+  },
+  "whatsapp": "573052577821",
+  "aviso": "La señal del pueblo, en tu TV y tu celular",
+  "secciones": [
+    {
+      "titulo": "Radio del pueblo",
+      "items": [
+        {"nombre": "Simití Original Stereo 89.0 FM", "tipo": "audio", "url": "https://uk16freenew.listen2myradio.com/live.mp3?typeportmount=s1_10902_stream_459185054", "imagen": "https://simitioriginalstereo.radio12345.com/users.img/2975070/1596378477/icon_thumb_80_1596378477.jpg", "detalle": "La emisora del pueblo"}
+      ]
+    },
+    {
+      "titulo": "Canales de la región",
+      "items": [
+        {"nombre": "Canal Sur TV", "tipo": "embed", "url": "https://teveo.com.co/player/AcAAAgAjAANpA1IAyADIUDAAAAGAAAAA.js?pid=teveo-player-3934", "imagen": "https://www.surtvcanaldelmagdalenamedio.com/wp-content/uploads/2025/10/cropped-IMG_0336-scaled-2.png", "detalle": "Magdalena Medio en vivo", "color": "#0E5AA7"}
+      ]
+    },
+    {
+      "titulo": "Noticias y avisos",
+      "items": [
+        {"nombre": "Bienvenidos a Simití TV", "tipo": "nota", "detalle": "Muy pronto, el canal del pueblo en vivo.", "descripcion": "Aquí vas a encontrar las noticias, eventos y fiestas de Simití. ¿Tienes una noticia? Escríbenos por WhatsApp.", "color": "#7A3E9D"}
+      ]
+    },
+    {
+      "titulo": "Negocios del pueblo",
+      "items": [
+        {"nombre": "Tu negocio aquí", "tipo": "aviso", "detalle": "Anúnciate en Simití TV", "descripcion": "Pon tu tienda, restaurante o servicio frente a todo el pueblo. Escríbenos y te damos los precios.", "whatsapp": "573052577821", "color": "#C2410C"}
+      ]
+    }
+  ]
+}
