@@ -1,3 +1,2 @@
    com.picksonline.vitrina = 0
    com.picksonline.tv = 0
-   com.picksonline.picho = 0
