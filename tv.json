@@ -17,11 +17,20 @@
   "envivo": [
     {
       "nombre": "Canal Sur TV",
+      "tipo": "app",
+      "paquete": "com.teveo.play.co.surtv",
+      "imagen": "https://www.surtvcanaldelmagdalenamedio.com/wp-content/uploads/2025/10/cropped-IMG_0336-scaled-2.png",
+      "categoria": "Sur de Bolívar",
+      "detalle": "App oficial del canal del Magdalena Medio, en vivo",
+      "color": "#0E5AA7"
+    },
+    {
+      "nombre": "Canal Sur TV (web)",
       "tipo": "web",
       "url": "https://www.surtvcanaldelmagdalenamedio.com/",
       "imagen": "https://www.surtvcanaldelmagdalenamedio.com/wp-content/uploads/2025/10/cropped-IMG_0336-scaled-2.png",
       "categoria": "Sur de Bolívar",
-      "detalle": "Canal del Magdalena Medio en vivo",
+      "detalle": "Señal en vivo desde la página oficial",
       "color": "#0E5AA7"
     },
     {
