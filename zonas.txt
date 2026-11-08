@@ -1,0 +1,2 @@
+# Apps exclusivas por zona: paquete = CODIGO. Solo las ven los equipos con ese código de zona en la Tienda.
+   com.picksonline.simititv = SIMITI
