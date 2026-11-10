@@ -3,12 +3,13 @@
   "envivo": {
     "nombre": "Simití TV",
     "tipo": "iframe",
-    "url": "https://www.youtube.com/embed/QygzfynEjhE?playlist=QygzfynEjhE&loop=1&autoplay=1&cc_load_policy=0&hl=es",
+    "url": "https://www.youtube.com/embed/fusn7sakZzc?playlist=fusn7sakZzc,QygzfynEjhE&loop=1&autoplay=1&cc_load_policy=0&hl=es",
     "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/envivo-muy-pronto.jpg",
     "detalle": "Muy pronto contenido para su estreno",
     "etiqueta": "▶ PROGRAMACIÓN",
     "sinTexto": true,
-    "_envivo": "Cuando haya transmisión en vivo: url = https://www.youtube.com/embed/live_stream?channel=UCsMrIcaZOaKmeyyn0WOsV-Q&autoplay=1&cc_load_policy=0 , etiqueta = ● EN VIVO"
+    "_envivo": "Cuando haya transmisión en vivo: url = https://www.youtube.com/embed/live_stream?channel=UCsMrIcaZOaKmeyyn0WOsV-Q&autoplay=1&cc_load_policy=0 , etiqueta = ● EN VIVO",
+    "_programacion": "Intro: Simití Bolívar, Tierra encantadora y bella (Alcaldía Simití Bolívar) + tráiler Simití, memoria viva"
   },
   "whatsapp": "573052577821",
   "aviso": "La memoria viva del pueblo, en tu TV y tu celular",
@@ -49,7 +50,22 @@
     },
     {
       "titulo": "Fiestas patronales",
-      "items": []
+      "items": [
+        {
+          "nombre": "Fiestas en honor a la Virgen Original",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/6NOd9x6prwM?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/6NOd9x6prwM/hqdefault.jpg",
+          "detalle": "Video: Lefranc Studio"
+        },
+        {
+          "nombre": "Cabalgata Regional Simití 2024",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/coehe5d82e8?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/coehe5d82e8/hqdefault.jpg",
+          "detalle": "Video: Amelio Torres Producciones"
+        }
+      ]
     },
     {
       "titulo": "Semana Santa",
@@ -93,12 +109,45 @@
           "detalle": "Colectivo «Pescado, Sombrero y Tambó»"
         },
         {
+          "nombre": "Costumbres y dichos de Simití",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/f_2X1tjYqzA?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/f_2X1tjYqzA/hqdefault.jpg",
+          "detalle": "Video: locuras jeipapis"
+        },
+        {
+          "nombre": "Relatos y apariciones de Simití",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/j_OC0yEM6mU?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/j_OC0yEM6mU/hqdefault.jpg",
+          "detalle": "Video: Biblioteca Municipal Simití"
+        },
+        {
           "nombre": "Cuéntanos la historia de Simití",
           "tipo": "nota",
           "detalle": "Próximamente: entrevistas a los mayores",
           "descripcion": "Aquí van a quedar guardadas las historias, leyendas, recetas y oficios del pueblo. ¿Conoces a alguien que deba contar su historia? Escríbenos por WhatsApp.",
           "whatsapp": "573052577821",
           "color": "#8B5E34"
+        }
+      ]
+    },
+    {
+      "titulo": "Conoce Simití",
+      "items": [
+        {
+          "nombre": "Simití, tierra encantadora y bella",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/fusn7sakZzc?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/fusn7sakZzc/hqdefault.jpg",
+          "detalle": "Video: Alcaldía Simití Bolívar"
+        },
+        {
+          "nombre": "La Ciénaga de Simití",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/wIcu9z_g7XE?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/wIcu9z_g7XE/hqdefault.jpg",
+          "detalle": "Video: Bitácora"
         }
       ]
     },
