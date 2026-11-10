@@ -1,0 +1,7 @@
+{
+  "_instrucciones": "Videos propios (o con permiso escrito) que se emiten en bucle 24/7. musica = mp3/m4a de fondo con permiso, o vacío para silencio.",
+  "videos": [
+    "https://github.com/pilutech29-cmd/PicksOnline-Updates/releases/download/media/cienaga-normal.mp4"
+  ],
+  "musica": ""
+}

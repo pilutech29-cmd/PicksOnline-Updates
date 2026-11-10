@@ -1,0 +1,12 @@
+[Unit]
+Description=Simití TV - transmisión 24/7 a YouTube
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/opt/simititv/emitir.sh
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
