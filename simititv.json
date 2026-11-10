@@ -41,17 +41,7 @@
     },
     {
       "titulo": "En vivo ahora",
-      "items": [
-        {
-          "nombre": "Canal Sur TV",
-          "tipo": "embed",
-          "url": "https://teveo.com.co/player/AcAAAgAjAANpA1IAyADIUDAAAAGAAAAA.js?pid=teveo-player-3934",
-          "imagen": "https://www.surtvcanaldelmagdalenamedio.com/wp-content/uploads/2025/10/cropped-IMG_0336-scaled-2.png",
-          "detalle": "Magdalena Medio",
-          "lugar": "Sur de Bolívar",
-          "color": "#0E5AA7"
-        }
-      ]
+      "items": []
     },
     {
       "titulo": "Fiestas patronales",
