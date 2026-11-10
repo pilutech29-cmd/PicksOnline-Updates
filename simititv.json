@@ -153,7 +153,36 @@
     },
     {
       "titulo": "Personajes de Simití",
-      "items": []
+      "items": [
+        {
+          "nombre": "Ep. 1 · Marcelo, entre versos, cantos y tamboras",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/7UxJyLrPRqU?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/7UxJyLrPRqU/hqdefault.jpg",
+          "detalle": "Simití, memoria viva · Colectivo «Pescado, Sombrero y Tambó»"
+        },
+        {
+          "nombre": "Ep. 2 · Juanita, la voz del alma simiteña",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/OMOvLi8MZX8?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/OMOvLi8MZX8/hqdefault.jpg",
+          "detalle": "Simití, memoria viva · Colectivo «Pescado, Sombrero y Tambó»"
+        },
+        {
+          "nombre": "Ep. 3 · Libardo, un hombre llamado Simití",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/RyNlRn_9ezQ?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/RyNlRn_9ezQ/hqdefault.jpg",
+          "detalle": "Simití, memoria viva · Colectivo «Pescado, Sombrero y Tambó»"
+        },
+        {
+          "nombre": "Ep. 4 · Hugo, una vida sobre el escenario",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/S4zscySQ8ok?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/S4zscySQ8ok/hqdefault.jpg",
+          "detalle": "Simití, memoria viva · Colectivo «Pescado, Sombrero y Tambó»"
+        }
+      ]
     },
     {
       "titulo": "Noticias",
