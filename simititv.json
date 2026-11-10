@@ -3,7 +3,7 @@
   "envivo": {
     "nombre": "Simití TV",
     "tipo": "iframe",
-    "url": "https://www.youtube.com/embed/QygzfynEjhE?playlist=x9eWvUqaLBQ,zVxKhAqFLIM,UrqXSb4mfZQ&loop=1&autoplay=1&cc_load_policy=0&hl=es",
+    "url": "https://www.youtube.com/embed/QygzfynEjhE?playlist=zVxKhAqFLIM,UrqXSb4mfZQ&loop=1&autoplay=1&cc_load_policy=0&hl=es",
     "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/envivo-muy-pronto.jpg",
     "detalle": "Muy pronto contenido para su estreno",
     "etiqueta": "▶ PROGRAMACIÓN",
