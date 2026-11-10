@@ -1,0 +1,28 @@
+name: video-drive
+on:
+  workflow_dispatch:
+    inputs:
+      id:
+        description: ID del archivo de Google Drive
+        required: true
+      nombre:
+        description: Nombre de salida (sin extension)
+        required: true
+permissions:
+  contents: write
+jobs:
+  procesar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar de Drive
+        run: |
+          pip install -q gdown
+          gdown --fuzzy "https://drive.google.com/file/d/${{ inputs.id }}/view" -O original.bin
+          ls -la original.bin
+      - name: Subir original
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view media -R ${{ github.repository }} >/dev/null 2>&1 || gh release create media -R ${{ github.repository }} -t "Media Simití TV" -n "Videos procesados"
+          cp original.bin "${{ inputs.nombre }}-original.mp4"
+          gh release upload media "${{ inputs.nombre }}-original.mp4" -R ${{ github.repository }} --clobber
