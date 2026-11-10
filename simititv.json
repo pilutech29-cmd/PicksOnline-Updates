@@ -54,7 +54,42 @@
       ]
     },
     {
-      "titulo": "Historia y tradiciones",
+      "titulo": "Fiestas patronales",
+      "items": []
+    },
+    {
+      "titulo": "Semana Santa",
+      "items": [
+        {
+          "nombre": "Semana Santa Simití 2023",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/x9eWvUqaLBQ?autoplay=1",
+          "imagen": "https://i.ytimg.com/vi/x9eWvUqaLBQ/hqdefault.jpg",
+          "detalle": "Simití, Bolívar · 2023"
+        }
+      ]
+    },
+    {
+      "titulo": "Tradición de los Judas",
+      "items": [
+        {
+          "nombre": "Tradición de los Judas · Simití 2023",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/zVxKhAqFLIM?autoplay=1",
+          "imagen": "https://i.ytimg.com/vi/zVxKhAqFLIM/hqdefault.jpg",
+          "detalle": "Parte 1 · 2023"
+        },
+        {
+          "nombre": "Tradición de los Judas · Simití 2023 (2)",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/UrqXSb4mfZQ?autoplay=1",
+          "imagen": "https://i.ytimg.com/vi/UrqXSb4mfZQ/hqdefault.jpg",
+          "detalle": "Parte 2 · 2023"
+        }
+      ]
+    },
+    {
+      "titulo": "Historias de Simití",
       "items": [
         {
           "nombre": "Cuéntanos la historia de Simití",
@@ -68,10 +103,6 @@
     },
     {
       "titulo": "Personajes de Simití",
-      "items": []
-    },
-    {
-      "titulo": "Fiestas y eventos",
       "items": []
     },
     {
