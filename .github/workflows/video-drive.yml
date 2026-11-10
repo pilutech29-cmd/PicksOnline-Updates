@@ -17,7 +17,7 @@ jobs:
       - name: Descargar de Drive
         run: |
           pip install -q gdown
-          gdown --fuzzy "https://drive.google.com/file/d/${{ inputs.id }}/view" -O original.bin
+          gdown "${{ inputs.id }}" -O original.bin
           ls -la original.bin
       - name: Subir original
         env:
