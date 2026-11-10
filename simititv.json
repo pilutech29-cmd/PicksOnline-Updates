@@ -82,6 +82,13 @@
       "titulo": "Historias de Simití",
       "items": [
         {
+          "nombre": "Simití, memoria viva · Tráiler oficial",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/QygzfynEjhE?autoplay=1",
+          "imagen": "https://i.ytimg.com/vi/QygzfynEjhE/hqdefault.jpg",
+          "detalle": "Colectivo «Pescado, Sombrero y Tambó»"
+        },
+        {
           "nombre": "Cuéntanos la historia de Simití",
           "tipo": "nota",
           "detalle": "Próximamente: entrevistas a los mayores",
