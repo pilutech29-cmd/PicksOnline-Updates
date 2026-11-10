@@ -136,6 +136,14 @@
       "titulo": "Conoce Simití",
       "items": [
         {
+          "nombre": "Recorrido por la Ciénaga",
+          "tipo": "video",
+          "url": "https://github.com/pilutech29-cmd/PicksOnline-Updates/releases/download/media/cienaga-nostalgico.mp4",
+          "imagen": "https://github.com/pilutech29-cmd/PicksOnline-Updates/releases/download/media/cienaga-muestra-0.1.jpg",
+          "detalle": "Video: Cristian · PicksOnline",
+          "bucle": true
+        },
+        {
           "nombre": "Simití, tierra encantadora y bella",
           "tipo": "iframe",
           "url": "https://www.youtube.com/embed/fusn7sakZzc?autoplay=1&cc_load_policy=0&hl=es",
