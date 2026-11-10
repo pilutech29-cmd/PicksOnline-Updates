@@ -3,7 +3,7 @@
   "envivo": {
     "nombre": "Simití TV en vivo",
     "tipo": "iframe",
-    "url": "https://www.youtube.com/embed/live_stream?channel=UCsMrIcaZOaKmeyyn0WOsV-Q&autoplay=1",
+    "url": "https://www.youtube.com/embed/live_stream?channel=UCsMrIcaZOaKmeyyn0WOsV-Q&autoplay=1&cc_load_policy=0&hl=es",
     "detalle": "Cuando haya transmisión, se ve aquí"
   },
   "whatsapp": "573052577821",
@@ -53,7 +53,7 @@
         {
           "nombre": "Semana Santa Simití 2023",
           "tipo": "iframe",
-          "url": "https://www.youtube.com/embed/x9eWvUqaLBQ?autoplay=1",
+          "url": "https://www.youtube.com/embed/x9eWvUqaLBQ?autoplay=1&cc_load_policy=0&hl=es",
           "imagen": "https://i.ytimg.com/vi/x9eWvUqaLBQ/hqdefault.jpg",
           "detalle": "Simití, Bolívar · 2023"
         }
@@ -65,14 +65,14 @@
         {
           "nombre": "Tradición de los Judas · Simití 2023",
           "tipo": "iframe",
-          "url": "https://www.youtube.com/embed/zVxKhAqFLIM?autoplay=1",
+          "url": "https://www.youtube.com/embed/zVxKhAqFLIM?autoplay=1&cc_load_policy=0&hl=es",
           "imagen": "https://i.ytimg.com/vi/zVxKhAqFLIM/hqdefault.jpg",
           "detalle": "Parte 1 · 2023"
         },
         {
           "nombre": "Tradición de los Judas · Simití 2023 (2)",
           "tipo": "iframe",
-          "url": "https://www.youtube.com/embed/UrqXSb4mfZQ?autoplay=1",
+          "url": "https://www.youtube.com/embed/UrqXSb4mfZQ?autoplay=1&cc_load_policy=0&hl=es",
           "imagen": "https://i.ytimg.com/vi/UrqXSb4mfZQ/hqdefault.jpg",
           "detalle": "Parte 2 · 2023"
         }
@@ -84,7 +84,7 @@
         {
           "nombre": "Simití, memoria viva · Tráiler oficial",
           "tipo": "iframe",
-          "url": "https://www.youtube.com/embed/QygzfynEjhE?autoplay=1",
+          "url": "https://www.youtube.com/embed/QygzfynEjhE?autoplay=1&cc_load_policy=0&hl=es",
           "imagen": "https://i.ytimg.com/vi/QygzfynEjhE/hqdefault.jpg",
           "detalle": "Colectivo «Pescado, Sombrero y Tambó»"
         },
