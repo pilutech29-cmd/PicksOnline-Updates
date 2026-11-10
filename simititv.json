@@ -138,8 +138,8 @@
         {
           "nombre": "Recorrido por la Ciénaga",
           "tipo": "video",
-          "url": "https://github.com/pilutech29-cmd/PicksOnline-Updates/releases/download/media/cienaga-nostalgico.mp4",
-          "imagen": "https://github.com/pilutech29-cmd/PicksOnline-Updates/releases/download/media/cienaga-muestra-0.1.jpg",
+          "url": "https://github.com/pilutech29-cmd/PicksOnline-Updates/releases/download/media/cienaga-normal.mp4",
+          "imagen": "https://github.com/pilutech29-cmd/PicksOnline-Updates/releases/download/media/cienaga-normal-muestra-0.1.jpg",
           "detalle": "Video: Cristian · PicksOnline",
           "bucle": true
         },
