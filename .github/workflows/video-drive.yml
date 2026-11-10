@@ -24,7 +24,7 @@ jobs:
       - name: Procesar (sin audio, nostalgico)
         run: |
           N="${{ inputs.nombre }}"
-          read W H < <(ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of csv=p=0:s=' ' original.bin)
+          read W H < <(ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of csv=p=0:s=x original.bin | tr x ' ')
           R=$(ffprobe -v error -select_streams v:0 -show_entries stream_side_data=rotation -of csv=p=0 original.bin | head -1)
           if [ "${R#-}" = 90 ] || [ "${R#-}" = 270 ]; then T=$W; W=$H; H=$T; fi
           LOOK="curves=preset=vintage,eq=saturation=0.72:contrast=1.04:gamma=1.03,colorbalance=rs=0.05:gs=0.02:bs=-0.06,vignette=angle=PI/4.5,noise=alls=6:allf=t+u"
