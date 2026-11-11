@@ -1,0 +1,19 @@
+name: probar-stream
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        required: true
+jobs:
+  probar:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          U="${{ inputs.url }}"
+          for UA in "ExoPlayerLib/2.19.1" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 Chrome/120 Mobile Safari/537.36" "VLC/3.0.20 LibVLC/3.0.20"; do
+            echo "== UA: $UA"
+            curl -s -o /tmp/a -D - --max-time 6 -A "$UA" "$U" | head -15 || true
+            echo "bytes: $(wc -c < /tmp/a 2>/dev/null)"
+          done
+          echo "== http (sin s)"; curl -s -o /tmp/b -D - --max-time 6 "${U/https:/http:}" | head -10; echo "bytes: $(wc -c </tmp/b)"
+          echo "== pagina"; curl -sL https://simitioriginalstereo.radio12345.com/ | grep -oE 'https?://[^"'"'"' ]*(listen2myradio|stream|\.mp3|zeno|radio)[^"'"'"' ]*' | sort -u | head -20
