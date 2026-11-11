@@ -4,7 +4,7 @@
     "nombre": "Simití TV",
     "tipo": "iframe",
     "url": "https://www.youtube.com/embed/fusn7sakZzc?playlist=fusn7sakZzc,QygzfynEjhE&loop=1&autoplay=1&cc_load_policy=0&hl=es",
-    "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/envivo-muy-pronto.jpg",
+    "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/portada-capilla-iglesia.jpg",
     "detalle": "Muy pronto contenido para su estreno",
     "etiqueta": "▶ PROGRAMACIÓN",
     "sinTexto": true,
@@ -16,18 +16,44 @@
   "creditoFoto": "Foto del monumento Yo ♥ Simití: crédito a su autor",
   "publicidad": [
     {
-      "nombre": "¡Tu negocio aquí!",
-      "detalle": "Primer mes GRATIS · Escríbenos",
-      "whatsapp": "573052577821",
-      "color": "#C2410C",
-      "descripcion": "Envíanos la publicidad de tu negocio (imagen o video) y la publicamos gratis durante el primer mes."
+      "nombre": "Simití TV no se apaga",
+      "detalle": "En vivo 24 horas",
+      "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/banner-envivo.jpg",
+      "color": "#0B5E4A",
+      "descripcion": "Fiestas, tradiciones, historias y paisajes de Simití, las 24 horas. Míralo en la tarjeta En vivo de la app, en simititv.com y en el canal de YouTube Simití TV.",
+      "whatsapp": "573052577821"
     },
     {
-      "nombre": "Anuncia en Simití TV",
-      "detalle": "Todo el pueblo te ve en la TV y el celular",
-      "whatsapp": "573052577821",
-      "color": "#7A3E9D",
-      "descripcion": "Banners, ficha en el directorio, patrocinio de programas y menciones en los lives."
+      "nombre": "¡Anuncia tu negocio aquí!",
+      "detalle": "Primer mes GRATIS",
+      "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/banner-negocios.jpg",
+      "color": "#C2410C",
+      "descripcion": "Tu negocio en el banner de la app y la web, en la sección Negocios del pueblo con botón a tu WhatsApp, y un comercial en el en vivo 24/7. El primer mes es GRATIS.",
+      "whatsapp": "573052577821"
+    },
+    {
+      "nombre": "Simití Original Stereo 89.0 FM",
+      "detalle": "Radio del pueblo",
+      "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/banner-radio.jpg",
+      "color": "#145A4A",
+      "descripcion": "Escucha la emisora del pueblo aquí mismo, en la sección Radio del pueblo.",
+      "whatsapp": ""
+    },
+    {
+      "nombre": "¿Tienes videos de Simití?",
+      "detalle": "Tu video al aire",
+      "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/banner-videos.jpg",
+      "color": "#1D4ED8",
+      "descripcion": "Mándanos tus videos o fotos de fiestas, tradiciones, historias, música o paisajes de Simití (horizontales y en buena calidad) y salen en el canal con tu nombre.",
+      "whatsapp": "573052577821"
+    },
+    {
+      "nombre": "simititv.com",
+      "detalle": "Llévanos contigo",
+      "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/banner-app.jpg",
+      "color": "#4C1D95",
+      "descripcion": "Míranos en simititv.com desde el celular o el computador. En Fire TV y Onn: abre Downloader y escribe el código 2811922.",
+      "whatsapp": "573052577821"
     }
   ],
   "secciones": [
