@@ -7,7 +7,7 @@ DIR=/opt/simititv
 echo "== Simití TV: instalando =="
 export DEBIAN_FRONTEND=noninteractive
 apt-get update -qq
-apt-get install -y -qq ffmpeg curl jq ufw fail2ban >/dev/null
+apt-get install -y -qq ffmpeg curl jq ufw fail2ban nginx openssl >/dev/null
 mkdir -p "$DIR/videos" /etc/simititv
 curl -fsSL "$BASE/emitir.sh"      -o "$DIR/emitir.sh"
 curl -fsSL "$BASE/sincronizar.sh" -o "$DIR/sincronizar.sh"
@@ -19,15 +19,29 @@ if [ ! -s /etc/simititv/clave ]; then
   echo
   echo "Pega la CLAVE DE TRANSMISIÓN de YouTube (YouTube Studio > Emitir en vivo > Transmisión)."
   echo "No se mostrará en pantalla. Presiona Enter al terminar:"
-  read -rs CLAVE < /dev/tty
-  [ -n "$CLAVE" ] || { echo "No escribiste la clave. Vuelve a ejecutar el instalador."; exit 1; }
-  printf '%s' "$CLAVE" > /etc/simititv/clave
-  chmod 600 /etc/simititv/clave
-  echo "Clave guardada."
+  echo "(Si YouTube todavía no te habilita el en vivo, solo presiona Enter: se instala la radio y luego repites este comando.)"
+  read -rs CLAVE < /dev/tty || true
+  if [ -n "$CLAVE" ]; then
+    printf '%s' "$CLAVE" > /etc/simititv/clave
+    chmod 600 /etc/simititv/clave
+    echo "Clave guardada."
+  else
+    echo "Sin clave por ahora: se instala solo la radio."
+  fi
 fi
 
+# Radio por https (radio.simititv.com) con certificado de origen para Cloudflare
+if [ ! -s /etc/simititv/origen.crt ]; then
+  openssl req -x509 -nodes -newkey rsa:2048 -days 3650 -subj "/CN=radio.simititv.com" \
+    -keyout /etc/simititv/origen.key -out /etc/simititv/origen.crt >/dev/null 2>&1
+fi
+curl -fsSL "$BASE/radio-proxy.conf" -o /etc/nginx/sites-available/simititv-radio
+ln -sf /etc/nginx/sites-available/simititv-radio /etc/nginx/sites-enabled/simititv-radio
+rm -f /etc/nginx/sites-enabled/default
+nginx -t >/dev/null 2>&1 && systemctl enable --now nginx >/dev/null 2>&1 && systemctl reload nginx
+
 # Seguridad básica
-ufw allow OpenSSH >/dev/null; ufw --force enable >/dev/null
+ufw allow OpenSSH >/dev/null; ufw allow 'Nginx Full' >/dev/null; ufw --force enable >/dev/null
 systemctl enable --now fail2ban >/dev/null 2>&1 || true
 
 # Descargar la parrilla y revisar cada 30 minutos si hay videos nuevos
@@ -35,9 +49,14 @@ systemctl enable --now fail2ban >/dev/null 2>&1 || true
 ( crontab -l 2>/dev/null | grep -v sincronizar.sh; echo "*/30 * * * * $DIR/sincronizar.sh >> /var/log/simititv-sync.log 2>&1" ) | crontab -
 
 systemctl daemon-reload
+echo
+if [ ! -s /etc/simititv/clave ]; then
+  echo "✅ Radio lista en https://radio.simititv.com/simiti-original"
+  echo "   Cuando YouTube te habilite el en vivo, vuelve a ejecutar este mismo comando y pega la clave."
+  exit 0
+fi
 systemctl enable --now simititv
 sleep 5
-echo
 if systemctl is-active --quiet simititv; then
   echo "✅ Simití TV está transmitiendo a YouTube las 24 horas."
   echo "   Ver estado:   systemctl status simititv"
