@@ -184,11 +184,12 @@
           "nombre": "Festival del Pescador · 2.ª edición",
           "tipo": "video",
           "color": "#0E7490",
-          "detalle": "2.º Homenaje al Día del Pescador Simiteño · Organiza: Geovany Rangel",
-          "descripcion": "¡Simití, unámonos por nuestros pescadores! Ya se hizo el Primer Homenaje al Día del Pescador Simiteño y ahora va el segundo. Material enviado por el organizador, Geovany Rangel.",
+          "detalle": "Sábado 30 de enero de 2027 · Organiza: Geovany Rangel",
+          "descripcion": "¡Simití, unámonos por nuestros pescadores! El 2.º Homenaje al Día del Pescador Simiteño será el sábado 30 de enero de 2027. Material enviado por el organizador, Geovany Rangel.",
           "whatsapp": "573052577821",
           "url": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/festival-pescador-2.mp4",
-          "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/festival-pescador-2.jpg"
+          "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/festival-pescador-2.jpg",
+          "etiqueta": "30 ENE 2027"
         },
         {
           "nombre": "Festival del Bocachico",
