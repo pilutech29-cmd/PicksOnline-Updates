@@ -2,14 +2,19 @@
   "_instrucciones": "Contenido de la app Simití TV. 'envivo' = canal principal. 'publicidad' = banners que rotan arriba (imagen o texto, whatsapp del negocio, 'hasta' = fecha en que deja de salir, AAAA-MM-DD). En 'secciones', cada item: tipo iframe (YouTube en vivo: https://www.youtube.com/embed/live_stream?channel=ID&autoplay=1 , o un video: https://www.youtube.com/embed/ID), hls (enlace .m3u8 del servidor propio), embed (reproductor tipo Teveo), audio (radio), aviso (negocio), nota (noticia). 'lugar' = desde dónde transmiten. 'hasta' también sirve en cualquier item. Las secciones sin items no se muestran.",
   "envivo": {
     "nombre": "Simití TV",
-    "tipo": "iframe",
-    "url": "https://www.youtube.com/embed/fusn7sakZzc?playlist=fusn7sakZzc,QygzfynEjhE&loop=1&autoplay=1&cc_load_policy=0&hl=es",
+    "tipo": "video",
+    "url": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/simiti-desde-el-aire.mp4",
     "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/portada-capilla-iglesia.jpg",
-    "detalle": "Muy pronto contenido para su estreno",
+    "detalle": "Simití desde el aire · video con dron",
     "etiqueta": "▶ PROGRAMACIÓN",
     "sinTexto": true,
     "_envivo": "Cuando haya transmisión en vivo: url = https://www.youtube.com/embed/live_stream?channel=UCsMrIcaZOaKmeyyn0WOsV-Q&autoplay=1&cc_load_policy=0 , etiqueta = ● EN VIVO",
-    "_programacion": "Intro: Simití Bolívar, Tierra encantadora y bella (Alcaldía Simití Bolívar) + tráiler Simití, memoria viva"
+    "_programacion": "Intro: Simití Bolívar, Tierra encantadora y bella (Alcaldía Simití Bolívar) + tráiler Simití, memoria viva",
+    "_anterior": {
+      "url": "https://www.youtube.com/embed/fusn7sakZzc?playlist=fusn7sakZzc,QygzfynEjhE&loop=1&autoplay=1&cc_load_policy=0&hl=es",
+      "tipo": "iframe"
+    },
+    "bucle": true
   },
   "whatsapp": "573052577821",
   "aviso": "La memoria viva del pueblo, en tu TV y tu celular",
