@@ -257,6 +257,18 @@
       ]
     },
     {
+      "titulo": "Fiestas de San Simón",
+      "items": [
+        {
+          "nombre": "Fiestas de San Simón · Día del Arbolito 2016",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/qTRVnydqylg?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/qTRVnydqylg/hqdefault.jpg",
+          "detalle": "Video: Jenaro Larios Carvajal"
+        }
+      ]
+    },
+    {
       "titulo": "Semana Santa",
       "items": [
         {
