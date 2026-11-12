@@ -46,10 +46,10 @@
     },
     {
       "nombre": "¡Anuncia tu negocio aquí!",
-      "detalle": "Primer mes GRATIS",
+      "detalle": "Gratis por lanzamiento",
       "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/banner-negocios.jpg",
       "color": "#C2410C",
-      "descripcion": "Tu negocio en el banner de la app y la web, en la sección Negocios del pueblo con botón a tu WhatsApp, y un comercial en el en vivo 24/7. El primer mes es GRATIS.",
+      "descripcion": "Tu negocio en el banner de la app y la web, en la sección Negocios del pueblo con botón a tu WhatsApp, y un comercial en el en vivo 24/7. Durante el lanzamiento no tiene costo, para negocios del casco urbano, corregimientos y veredas.",
       "whatsapp": "573052577821"
     },
     {
@@ -177,8 +177,8 @@
         {
           "nombre": "Tu negocio aquí",
           "tipo": "aviso",
-          "detalle": "1 mes gratis",
-          "descripcion": "Pon tu tienda, restaurante o servicio frente a todo el pueblo. Envíanos tu publicidad y la subimos gratis el primer mes.",
+          "detalle": "Sin costo por lanzamiento",
+          "descripcion": "Pon tu tienda, restaurante, finca o servicio frente a todo Simití, del casco urbano a las veredas. Envíanos tu publicidad: durante el lanzamiento la subimos sin costo.",
           "whatsapp": "573052577821",
           "color": "#C2410C"
         }
