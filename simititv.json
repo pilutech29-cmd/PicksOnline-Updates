@@ -374,6 +374,24 @@
       "titulo": "Negocios del pueblo",
       "items": [
         {
+          "nombre": "D'Marol Gourmet",
+          "tipo": "aviso",
+          "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/dmarol-gourmet.jpg",
+          "detalle": "Restaurante · Pide por WhatsApp",
+          "etiqueta": "NEGOCIO",
+          "whatsapp": "573123295553",
+          "color": "#7C2D12",
+          "descripcion": "D'Marol Gourmet, restaurante en Simití. Ambiente acogedor para compartir en familia y con amigos. Escríbeles por WhatsApp para reservas y pedidos."
+        },
+        {
+          "nombre": "Conoce D'Marol Gourmet",
+          "tipo": "video",
+          "url": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/dmarol-gourmet.mp4",
+          "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/dmarol-gourmet.jpg",
+          "detalle": "Video del restaurante · WhatsApp 312 329 5553",
+          "etiqueta": "VIDEO"
+        },
+        {
           "nombre": "Tu negocio aquí",
           "tipo": "aviso",
           "detalle": "1 mes gratis",
