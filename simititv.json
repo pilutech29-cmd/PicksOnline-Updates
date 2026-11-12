@@ -225,6 +225,75 @@
       ]
     },
     {
+      "titulo": "Música vallenata",
+      "items": [
+        {
+          "nombre": "Como te quise, te olvido",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/DWsW_ylJoPM?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/DWsW_ylJoPM/hqdefault.jpg",
+          "detalle": "Video: Iván Ballesteros & Jaime Mesa · cover en vivo",
+          "descripcion": "Como te quise, te olvido (cover en vivo) por Iván Ballesteros & Jaime Mesa. Video del canal oficial de Iván Ballesteros en YouTube (@ivanballesterosoficial)."
+        },
+        {
+          "nombre": "Ni plata ni nada",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/qq-B1oxRC0A?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/qq-B1oxRC0A/hqdefault.jpg",
+          "detalle": "Video: Iván Ballesteros & Jaime Mesa · cover en vivo",
+          "descripcion": "Ni plata ni nada (cover en vivo) por Iván Ballesteros & Jaime Mesa. Video del canal oficial de Iván Ballesteros en YouTube (@ivanballesterosoficial)."
+        },
+        {
+          "nombre": "Lo más difícil",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/YPcY4HGRkgE?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/YPcY4HGRkgE/hqdefault.jpg",
+          "detalle": "Video: Iván Ballesteros & Jaime Mesa · cover en vivo",
+          "descripcion": "Lo más difícil (cover en vivo) por Iván Ballesteros & Jaime Mesa. Video del canal oficial de Iván Ballesteros en YouTube (@ivanballesterosoficial)."
+        },
+        {
+          "nombre": "Se equivocó",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/-jjuntA-s_Y?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/-jjuntA-s_Y/hqdefault.jpg",
+          "detalle": "Video: Iván Ballesteros & Jaime Mesa · cover en vivo",
+          "descripcion": "Se equivocó (cover en vivo) por Iván Ballesteros & Jaime Mesa. Video del canal oficial de Iván Ballesteros en YouTube (@ivanballesterosoficial)."
+        },
+        {
+          "nombre": "Por estar adorándote",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/M7SuBNtlUE8?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/M7SuBNtlUE8/hqdefault.jpg",
+          "detalle": "Video: Iván Ballesteros · cover en vivo",
+          "descripcion": "Por estar adorándote (cover en vivo) por Iván Ballesteros. Video del canal oficial de Iván Ballesteros en YouTube (@ivanballesterosoficial)."
+        },
+        {
+          "nombre": "De dónde amor",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/n1L4eb6dWFU?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/n1L4eb6dWFU/hqdefault.jpg",
+          "detalle": "Video: Iván Ballesteros · cover en vivo",
+          "descripcion": "De dónde amor (cover en vivo) por Iván Ballesteros. Video del canal oficial de Iván Ballesteros en YouTube (@ivanballesterosoficial)."
+        },
+        {
+          "nombre": "Amigos míos",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/VazWe1CnjKc?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/VazWe1CnjKc/hqdefault.jpg",
+          "detalle": "Video: Iván Ballesteros · cover en vivo",
+          "descripcion": "Amigos míos (cover en vivo) por Iván Ballesteros. Video del canal oficial de Iván Ballesteros en YouTube (@ivanballesterosoficial)."
+        },
+        {
+          "nombre": "Te pierdo y te pienso",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/QaCkLqe3VJ4?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/QaCkLqe3VJ4/hqdefault.jpg",
+          "detalle": "Video: Iván Ballesteros · cover en vivo",
+          "descripcion": "Te pierdo y te pienso (cover en vivo) por Iván Ballesteros. Video del canal oficial de Iván Ballesteros en YouTube (@ivanballesterosoficial)."
+        }
+      ]
+    },
+    {
       "titulo": "Festivales de Simití",
       "items": [
         {
