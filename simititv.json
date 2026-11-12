@@ -238,6 +238,18 @@
       ]
     },
     {
+      "titulo": "Carnavales de Simití",
+      "items": [
+        {
+          "nombre": "Carnaval de Simití 2023",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/LxWCnKISKdw?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/LxWCnKISKdw/hqdefault.jpg",
+          "detalle": "Video: David Torres, periodista"
+        }
+      ]
+    },
+    {
       "titulo": "Semana Santa",
       "items": [
         {
