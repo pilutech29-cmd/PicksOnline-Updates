@@ -269,6 +269,32 @@
       ]
     },
     {
+      "titulo": "Mojigangas y Monos",
+      "items": [
+        {
+          "nombre": "Los Monos · baile típico de Simití",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/Dwk-GoFfRhA?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/Dwk-GoFfRhA/hqdefault.jpg",
+          "detalle": "Video: Colectivo «Pescado, Sombrero y Tambó»"
+        },
+        {
+          "nombre": "Los Monos, baile típico de Simití",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/sh9FKgDYHFA?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/sh9FKgDYHFA/hqdefault.jpg",
+          "detalle": "Video: David Torres, periodista"
+        },
+        {
+          "nombre": "Los Monos de Simití",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/MVTtKQteMks?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/MVTtKQteMks/hqdefault.jpg",
+          "detalle": "Video: Rolando Guerrero Torres"
+        }
+      ]
+    },
+    {
       "titulo": "Noticias",
       "items": [
         {
