@@ -272,6 +272,13 @@
       "titulo": "Mojigangas y Monos",
       "items": [
         {
+          "nombre": "Pasos ancestrales: herencia en movimiento",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/3Q7qVvh_1e8?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/3Q7qVvh_1e8/hqdefault.jpg",
+          "detalle": "Documental · cómo se baila · Video: Daniela Olarte"
+        },
+        {
           "nombre": "Los Monos · baile típico de Simití",
           "tipo": "iframe",
           "url": "https://www.youtube.com/embed/Dwk-GoFfRhA?autoplay=1&cc_load_policy=0&hl=es",
