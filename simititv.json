@@ -294,6 +294,75 @@
       ]
     },
     {
+      "titulo": "Talento del sur de Bolívar",
+      "items": [
+        {
+          "nombre": "Por una ingrata",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/HQRgJNJTkNA?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/HQRgJNJTkNA/hqdefault.jpg",
+          "detalle": "Video: Alexa Monroy · video oficial",
+          "descripcion": "Alexa Monroy, cantante radicada en Los Canelos, Santa Rosa del Sur. Video oficial de su canal de YouTube."
+        },
+        {
+          "nombre": "La reina",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/ed70PVreme0?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/ed70PVreme0/hqdefault.jpg",
+          "detalle": "Video: Alexa Monroy · video oficial",
+          "descripcion": "Alexa Monroy, cantante radicada en Los Canelos, Santa Rosa del Sur. Video oficial de su canal de YouTube."
+        },
+        {
+          "nombre": "El Tenampa",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/Ow82AUBWlQ0?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/Ow82AUBWlQ0/hqdefault.jpg",
+          "detalle": "Video: Alexa Monroy · live session",
+          "descripcion": "Alexa Monroy en sesión en vivo. Video de su canal oficial de YouTube."
+        },
+        {
+          "nombre": "Si no te hubieras ido",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/tTLgq2UPL7s?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/tTLgq2UPL7s/hqdefault.jpg",
+          "detalle": "Video: Alexa Monroy · acústico",
+          "descripcion": "Alexa Monroy, versión acústica. Video de su canal oficial de YouTube."
+        },
+        {
+          "nombre": "Me robaste el sueño",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/2DnOph5aIOU?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/2DnOph5aIOU/hqdefault.jpg",
+          "detalle": "Video: Martina Camargo · tambora",
+          "descripcion": "Martina Camargo, cantadora de tambora del sur de Bolívar. Audio de su canal oficial en YouTube."
+        },
+        {
+          "nombre": "La tambora de Cayetano",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/57b9OMu7hSk?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/57b9OMu7hSk/hqdefault.jpg",
+          "detalle": "Video: Martina Camargo · tambora",
+          "descripcion": "Homenaje a Cayetano Camargo, cantador lobano y padre de Martina. Audio de su canal oficial en YouTube."
+        },
+        {
+          "nombre": "El caimán en el almendro",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/Ro-4vJjGp4M?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/Ro-4vJjGp4M/hqdefault.jpg",
+          "detalle": "Video: Martina Camargo · tambora alegre",
+          "descripcion": "Martina Camargo, tambora alegre. Audio de su canal oficial en YouTube."
+        },
+        {
+          "nombre": "El Mohán · Festival Nacional de la Tambora",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/iMkNYvhq1HU?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/iMkNYvhq1HU/hqdefault.jpg",
+          "detalle": "Video: Martina Camargo · Amplificado.tv",
+          "descripcion": "Martina Camargo en el Festival Nacional de la Tambora. Video de Amplificado.tv."
+        }
+      ]
+    },
+    {
       "titulo": "Festivales de Simití",
       "items": [
         {
