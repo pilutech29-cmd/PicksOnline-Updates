@@ -309,6 +309,25 @@
       ]
     },
     {
+      "titulo": "Mapalé simiteño",
+      "items": [
+        {
+          "nombre": "Mapalé de Simití, Bolívar",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/YNeTK-NqHYE?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/YNeTK-NqHYE/hqdefault.jpg",
+          "detalle": "Video: Fredy Umaña"
+        },
+        {
+          "nombre": "Mapalé · Simití",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/WlQQzcMkFJo?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/WlQQzcMkFJo/hqdefault.jpg",
+          "detalle": "Video: Tatiana Padilla"
+        }
+      ]
+    },
+    {
       "titulo": "Noticias",
       "items": [
         {
