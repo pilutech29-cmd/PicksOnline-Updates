@@ -77,69 +77,8 @@
       ]
     },
     {
-      "titulo": "En vivo ahora",
-      "items": []
-    },
-    {
-      "titulo": "Fiestas patronales",
-      "items": [
-        {
-          "nombre": "Fiestas en honor a la Virgen Original",
-          "tipo": "iframe",
-          "url": "https://www.youtube.com/embed/6NOd9x6prwM?autoplay=1&cc_load_policy=0&hl=es",
-          "imagen": "https://i.ytimg.com/vi/6NOd9x6prwM/hqdefault.jpg",
-          "detalle": "Video: Lefranc Studio"
-        },
-        {
-          "nombre": "Cabalgata Regional Simití 2024",
-          "tipo": "iframe",
-          "url": "https://www.youtube.com/embed/coehe5d82e8?autoplay=1&cc_load_policy=0&hl=es",
-          "imagen": "https://i.ytimg.com/vi/coehe5d82e8/hqdefault.jpg",
-          "detalle": "Video: Amelio Torres Producciones"
-        }
-      ]
-    },
-    {
-      "titulo": "Semana Santa",
-      "items": [
-        {
-          "nombre": "Semana Santa Simití 2023",
-          "tipo": "iframe",
-          "url": "https://www.youtube.com/embed/x9eWvUqaLBQ?autoplay=1&cc_load_policy=0&hl=es",
-          "imagen": "https://i.ytimg.com/vi/x9eWvUqaLBQ/hqdefault.jpg",
-          "detalle": "Simití, Bolívar · 2023"
-        }
-      ]
-    },
-    {
-      "titulo": "Tradición de los Judas",
-      "items": [
-        {
-          "nombre": "Tradición de los Judas · Simití 2023",
-          "tipo": "iframe",
-          "url": "https://www.youtube.com/embed/zVxKhAqFLIM?autoplay=1&cc_load_policy=0&hl=es",
-          "imagen": "https://i.ytimg.com/vi/zVxKhAqFLIM/hqdefault.jpg",
-          "detalle": "Parte 1 · 2023"
-        },
-        {
-          "nombre": "Tradición de los Judas · Simití 2023 (2)",
-          "tipo": "iframe",
-          "url": "https://www.youtube.com/embed/UrqXSb4mfZQ?autoplay=1&cc_load_policy=0&hl=es",
-          "imagen": "https://i.ytimg.com/vi/UrqXSb4mfZQ/hqdefault.jpg",
-          "detalle": "Parte 2 · 2023"
-        }
-      ]
-    },
-    {
       "titulo": "Historias de Simití",
       "items": [
-        {
-          "nombre": "Simití, memoria viva · Tráiler oficial",
-          "tipo": "iframe",
-          "url": "https://www.youtube.com/embed/QygzfynEjhE?autoplay=1&cc_load_policy=0&hl=es",
-          "imagen": "https://i.ytimg.com/vi/QygzfynEjhE/hqdefault.jpg",
-          "detalle": "Colectivo «Pescado, Sombrero y Tambó»"
-        },
         {
           "nombre": "Costumbres y dichos de Simití",
           "tipo": "iframe",
@@ -202,6 +141,13 @@
       "titulo": "Personajes de Simití",
       "items": [
         {
+          "nombre": "Simití, memoria viva · Tráiler oficial",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/QygzfynEjhE?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/QygzfynEjhE/hqdefault.jpg",
+          "detalle": "Colectivo «Pescado, Sombrero y Tambó»"
+        },
+        {
           "nombre": "Ep. 1 · Marcelo, entre versos, cantos y tamboras",
           "tipo": "iframe",
           "url": "https://www.youtube.com/embed/7UxJyLrPRqU?autoplay=1&cc_load_policy=0&hl=es",
@@ -228,6 +174,94 @@
           "url": "https://www.youtube.com/embed/S4zscySQ8ok?autoplay=1&cc_load_policy=0&hl=es",
           "imagen": "https://i.ytimg.com/vi/S4zscySQ8ok/hqdefault.jpg",
           "detalle": "Simití, memoria viva · Colectivo «Pescado, Sombrero y Tambó»"
+        }
+      ]
+    },
+    {
+      "titulo": "Festivales de Simití",
+      "items": [
+        {
+          "nombre": "Festival del Pescador · 2.ª edición",
+          "tipo": "nota",
+          "color": "#0E7490",
+          "detalle": "Muy pronto el video promocional",
+          "descripcion": "El Festival del Pescador celebra a los hombres y mujeres que viven de la ciénaga. Muy pronto aquí el video promocional de la segunda edición y lo mejor del festival. ¿Tienes videos o fotos? Mándalos por WhatsApp.",
+          "whatsapp": "573052577821"
+        },
+        {
+          "nombre": "Festival del Bocachico",
+          "tipo": "nota",
+          "color": "#B45309",
+          "detalle": "Muy pronto",
+          "descripcion": "El Festival del Bocachico, una tradición de Simití. Muy pronto aquí sus videos e imágenes. ¿Tienes material? Mándalo por WhatsApp y sale con tu nombre.",
+          "whatsapp": "573052577821"
+        }
+      ]
+    },
+    {
+      "titulo": "Ferias y Fiestas 2026",
+      "items": [
+        {
+          "nombre": "Ferias y Fiestas de Simití 2026",
+          "tipo": "nota",
+          "color": "#BE123C",
+          "detalle": "Diciembre · Muy pronto la programación",
+          "descripcion": "Este diciembre llegan las Ferias y Fiestas de Simití. Aquí vas a encontrar la programación día por día, las transmisiones en vivo y los mejores momentos. ¡Mándanos tus videos de las fiestas!",
+          "whatsapp": "573052577821"
+        }
+      ]
+    },
+    {
+      "titulo": "En vivo ahora",
+      "items": []
+    },
+    {
+      "titulo": "Fiestas patronales",
+      "items": [
+        {
+          "nombre": "Fiestas en honor a la Virgen Original",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/6NOd9x6prwM?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/6NOd9x6prwM/hqdefault.jpg",
+          "detalle": "Video: Lefranc Studio"
+        },
+        {
+          "nombre": "Cabalgata Regional Simití 2024",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/coehe5d82e8?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/coehe5d82e8/hqdefault.jpg",
+          "detalle": "Video: Amelio Torres Producciones"
+        }
+      ]
+    },
+    {
+      "titulo": "Semana Santa",
+      "items": [
+        {
+          "nombre": "Semana Santa Simití 2023",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/x9eWvUqaLBQ?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/x9eWvUqaLBQ/hqdefault.jpg",
+          "detalle": "Simití, Bolívar · 2023"
+        }
+      ]
+    },
+    {
+      "titulo": "Tradición de los Judas",
+      "items": [
+        {
+          "nombre": "Tradición de los Judas · Simití 2023",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/zVxKhAqFLIM?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/zVxKhAqFLIM/hqdefault.jpg",
+          "detalle": "Parte 1 · 2023"
+        },
+        {
+          "nombre": "Tradición de los Judas · Simití 2023 (2)",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/UrqXSb4mfZQ?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/UrqXSb4mfZQ/hqdefault.jpg",
+          "detalle": "Parte 2 · 2023"
         }
       ]
     },
