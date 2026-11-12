@@ -149,9 +149,9 @@
           "tipo": "video",
           "url": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/atardeceres-cienaga.mp4",
           "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/atardeceres-cienaga.jpg",
-          "detalle": "Fotos enviadas por la comunidad",
+          "detalle": "Fotos de un paisano simiteño",
           "bucle": true,
-          "descripcion": "Atardeceres sobre la ciénaga de Simití, con fotos enviadas por la comunidad. ¿Tienes fotos de Simití? Mándalas al WhatsApp 305 257 7821."
+          "descripcion": "Atardeceres sobre la ciénaga de Simití, con fotos que nos mandó un paisano por WhatsApp. ¿Tienes fotos de Simití? Mándalas al WhatsApp 305 257 7821."
         },
         {
           "nombre": "Simití, tierra encantadora y bella",
@@ -306,6 +306,102 @@
           "imagen": "https://i.ytimg.com/vi/QaCkLqe3VJ4/hqdefault.jpg",
           "detalle": "Video: Iván Ballesteros · cover en vivo",
           "descripcion": "Te pierdo y te pienso (cover en vivo) por Iván Ballesteros. Video del canal oficial de Iván Ballesteros en YouTube (@ivanballesterosoficial)."
+        },
+        {
+          "nombre": "No puedo olvidarla",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/V4SC2XoPq90?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/V4SC2XoPq90/hqdefault.jpg",
+          "detalle": "Video: Iván Ballesteros & David Chaar ft. Alex Martínez",
+          "descripcion": "No puedo olvidarla, por Iván Ballesteros & David Chaar ft. Alex Martínez. Video del canal oficial de Iván Ballesteros en YouTube."
+        },
+        {
+          "nombre": "Mosaico parrandero",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/1vcW3LvOvrY?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/1vcW3LvOvrY/hqdefault.jpg",
+          "detalle": "Video: Iván Ballesteros & David Chaar ft. Churo Díaz",
+          "descripcion": "Mosaico parrandero, por Iván Ballesteros & David Chaar ft. Churo Díaz. Video del canal oficial de Iván Ballesteros en YouTube."
+        },
+        {
+          "nombre": "Clásicos y una más",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/0fYv-4zMvkU?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/0fYv-4zMvkU/hqdefault.jpg",
+          "detalle": "Video: Luister La Voz · en vivo",
+          "descripcion": "Clásicos y una más, por Luister La Voz. Video del canal oficial de Luister La Voz en YouTube."
+        },
+        {
+          "nombre": "Amarte más no pude",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/yZh7hqrMpAg?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/yZh7hqrMpAg/hqdefault.jpg",
+          "detalle": "Video: Luister La Voz · en vivo",
+          "descripcion": "Amarte más no pude, por Luister La Voz. Video del canal oficial de Luister La Voz en YouTube."
+        },
+        {
+          "nombre": "Promesa sagrada",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/YIfJXOiAQNY?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/YIfJXOiAQNY/hqdefault.jpg",
+          "detalle": "Video: Luister La Voz · live session",
+          "descripcion": "Promesa sagrada, por Luister La Voz. Video del canal oficial de Luister La Voz en YouTube."
+        },
+        {
+          "nombre": "Las cartas",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/XPcKQIDmp9o?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/XPcKQIDmp9o/hqdefault.jpg",
+          "detalle": "Video: Luister La Voz · live session",
+          "descripcion": "Las cartas, por Luister La Voz. Video del canal oficial de Luister La Voz en YouTube."
+        },
+        {
+          "nombre": "Nubes negras",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/q053NZROlQg?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/q053NZROlQg/hqdefault.jpg",
+          "detalle": "Video: Jhonder Morales · en vivo",
+          "descripcion": "Nubes negras, por Jhonder Morales. Video del canal oficial de Jhonder Morales en YouTube."
+        },
+        {
+          "nombre": "Ayer y hoy",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/Ffa_Ey9Dn_A?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/Ffa_Ey9Dn_A/hqdefault.jpg",
+          "detalle": "Video: Jhonder Morales · en vivo",
+          "descripcion": "Ayer y hoy, por Jhonder Morales. Video del canal oficial de Jhonder Morales en YouTube."
+        },
+        {
+          "nombre": "Ayúdame a olvidarla",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/9lvNRwRGa5k?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/9lvNRwRGa5k/hqdefault.jpg",
+          "detalle": "Video: Samuel Morales & Juan K Ricardo · en vivo",
+          "descripcion": "Ayúdame a olvidarla, por Samuel Morales & Juan K Ricardo. Video del canal oficial de Samuel Morales en YouTube."
+        },
+        {
+          "nombre": "Por volverte a ver",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/Bxkl0elXcKE?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/Bxkl0elXcKE/hqdefault.jpg",
+          "detalle": "Video: Julio Rojas & Tavo Sumoza · en vivo",
+          "descripcion": "Por volverte a ver, por Julio Rojas & Tavo Sumoza. Video del canal oficial de Julio Rojas en YouTube."
+        },
+        {
+          "nombre": "Homenaje a Omar Geles",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/p4S-DEIZrHA?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/p4S-DEIZrHA/hqdefault.jpg",
+          "detalle": "Video: Diego Daza & Carlos Rueda · en vivo",
+          "descripcion": "Homenaje a Omar Geles, por Diego Daza & Carlos Rueda. Video del canal oficial de Diego Daza en YouTube."
+        },
+        {
+          "nombre": "Homenaje al Binomio de Oro",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/y9tPkMGHHF4?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/y9tPkMGHHF4/hqdefault.jpg",
+          "detalle": "Video: Alex Martínez · en vivo",
+          "descripcion": "Homenaje al Binomio de Oro, por Alex Martínez. Video del canal oficial de Alex Martínez en YouTube."
         }
       ]
     },
