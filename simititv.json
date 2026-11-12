@@ -89,6 +89,13 @@
           "imagen": "https://simitioriginalstereo.radio12345.com/users.img/2975070/1596378477/icon_thumb_80_1596378477.jpg",
           "detalle": "La emisora del pueblo",
           "urlWeb": "https://radio.simititv.com/simiti-original"
+        },
+        {
+          "nombre": "La Simiteña Stereo 100.0 FM",
+          "tipo": "audio",
+          "url": "https://server2.streaminghd.co/listen/lasimitenastereo1000fm/radio.mp3",
+          "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/logo-la-simitena.png",
+          "detalle": "Emisora La Simiteña"
         }
       ]
     },
@@ -136,6 +143,15 @@
           "imagen": "https://github.com/pilutech29-cmd/PicksOnline-Updates/releases/download/media/cienaga-normal-muestra-0.1.jpg",
           "detalle": "Video: Cristian · PicksOnline",
           "bucle": true
+        },
+        {
+          "nombre": "Atardeceres en la ciénaga",
+          "tipo": "video",
+          "url": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/atardeceres-cienaga.mp4",
+          "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/atardeceres-cienaga.jpg",
+          "detalle": "Fotos enviadas por la comunidad",
+          "bucle": true,
+          "descripcion": "Atardeceres sobre la ciénaga de Simití, con fotos enviadas por la comunidad. ¿Tienes fotos de Simití? Mándalas al WhatsApp 305 257 7821."
         },
         {
           "nombre": "Simití, tierra encantadora y bella",
