@@ -182,11 +182,13 @@
       "items": [
         {
           "nombre": "Festival del Pescador · 2.ª edición",
-          "tipo": "nota",
+          "tipo": "video",
           "color": "#0E7490",
-          "detalle": "Muy pronto el video promocional",
-          "descripcion": "El Festival del Pescador celebra a los hombres y mujeres que viven de la ciénaga. Muy pronto aquí el video promocional de la segunda edición y lo mejor del festival. ¿Tienes videos o fotos? Mándalos por WhatsApp.",
-          "whatsapp": "573052577821"
+          "detalle": "2.º Homenaje al Día del Pescador Simiteño · Organiza: Geovany Rangel",
+          "descripcion": "¡Simití, unámonos por nuestros pescadores! Ya se hizo el Primer Homenaje al Día del Pescador Simiteño y ahora va el segundo. Información del organizador, Geovany Rangel.",
+          "whatsapp": "573052577821",
+          "url": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/festival-pescador-2.mp4",
+          "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/festival-pescador-2.jpg"
         },
         {
           "nombre": "Festival del Bocachico",
