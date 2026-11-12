@@ -279,6 +279,13 @@
           "detalle": "Documental · cómo se baila · Video: Daniela Olarte"
         },
         {
+          "nombre": "Las Mojigangas: herencia viva del folclor simiteño",
+          "tipo": "iframe",
+          "url": "https://www.youtube.com/embed/w8oBtdzKOwc?autoplay=1&cc_load_policy=0&hl=es",
+          "imagen": "https://i.ytimg.com/vi/w8oBtdzKOwc/hqdefault.jpg",
+          "detalle": "Video: UNIPAZ Noticias"
+        },
+        {
           "nombre": "Los Monos · baile típico de Simití",
           "tipo": "iframe",
           "url": "https://www.youtube.com/embed/Dwk-GoFfRhA?autoplay=1&cc_load_policy=0&hl=es",
