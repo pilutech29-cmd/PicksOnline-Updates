@@ -21,20 +21,20 @@
   "creditoFoto": "Foto del monumento Yo ♥ Simití: crédito a su autor",
   "publicidad": [
     {
-      "nombre": "D'Marol Gourmet",
-      "detalle": "Restaurante en Simití",
-      "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/banner-dmarol.jpg",
-      "color": "#7C2D12",
-      "whatsapp": "573123295553",
-      "descripcion": "D'Marol Gourmet, restaurante en Simití. Ambiente acogedor para compartir en familia y con amigos. Escríbeles por WhatsApp para reservas y pedidos."
-    },
-    {
       "nombre": "Maurello's Coffe",
       "detalle": "Café en Simití",
       "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/banner-maurellos.jpg",
       "color": "#9A4A12",
       "whatsapp": "573176558811",
       "descripcion": "Maurello's Coffe, café en Simití: cafés, aromáticas, jugos naturales, granizados, micheladas, postres, tortas, empanadas y desayunos. Escríbeles por WhatsApp para pedidos."
+    },
+    {
+      "nombre": "D'Marol Gourmet",
+      "detalle": "Restaurante en Simití",
+      "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/banner-dmarol.jpg",
+      "color": "#7C2D12",
+      "whatsapp": "573123295553",
+      "descripcion": "D'Marol Gourmet, restaurante en Simití. Ambiente acogedor para compartir en familia y con amigos. Escríbeles por WhatsApp para reservas y pedidos."
     },
     {
       "nombre": "Simití TV no se apaga",
@@ -157,14 +157,6 @@
       "titulo": "Negocios del pueblo",
       "items": [
         {
-          "nombre": "Conoce D'Marol Gourmet",
-          "tipo": "video",
-          "url": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/dmarol-gourmet.mp4",
-          "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/dmarol-gourmet.jpg",
-          "detalle": "D'Marol Gourmet · restaurante",
-          "etiqueta": "VIDEO"
-        },
-        {
           "nombre": "Conoce Maurello's Coffe",
           "tipo": "video",
           "url": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/maurellos-coffe.mp4",
@@ -173,6 +165,14 @@
           "etiqueta": "VIDEO",
           "whatsapp": "573176558811",
           "descripcion": "Recorrido por Maurello's Coffe en Simití. Pedidos por WhatsApp 317 655 8811."
+        },
+        {
+          "nombre": "Conoce D'Marol Gourmet",
+          "tipo": "video",
+          "url": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/dmarol-gourmet.mp4",
+          "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/dmarol-gourmet.jpg",
+          "detalle": "D'Marol Gourmet · restaurante",
+          "etiqueta": "VIDEO"
         },
         {
           "nombre": "Tu negocio aquí",
