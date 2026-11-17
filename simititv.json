@@ -21,6 +21,16 @@
   "creditoFoto": "Foto del monumento Yo ♥ Simití: crédito a su autor",
   "publicidad": [
     {
+      "nombre": "4.° Festival del Bocachico",
+      "detalle": "5 y 6 de diciembre · Simití",
+      "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/banner-festival-bocachico.jpg",
+      "color": "#B45309",
+      "tipo": "video",
+      "url": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/festival-bocachico-2026.mp4",
+      "descripcion": "¡Simití te espera! 4.° Festival Gastronómico del Bocachico, el 5 y 6 de diciembre de 2026 en Simití: nuestras matronas, pescadores, emprendedores y familias son protagonistas de una tradición que nos llena de orgullo. Ven con tu familia. Video: Tatiana Guerra Pallares.",
+      "hasta": "2026-12-06"
+    },
+    {
       "nombre": "Mercado Campesino 2026",
       "detalle": "Domingo 29 de noviembre · PAS",
       "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/banner-mercado-campesino.jpg",
@@ -584,13 +594,24 @@
           "etiqueta": "30 ENE 2027"
         },
         {
-          "nombre": "Festival del Bocachico",
+          "nombre": "4.° Festival Gastronómico del Bocachico",
+          "tipo": "video",
+          "url": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/festival-bocachico-2026.mp4",
+          "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/festival-bocachico-5-6dic.jpg",
+          "color": "#B45309",
+          "etiqueta": "5-6 DIC",
+          "detalle": "5 y 6 de diciembre de 2026 · Video: Tatiana Guerra Pallares",
+          "descripcion": "¡Simití te espera! 4.° Festival Gastronómico del Bocachico, el 5 y 6 de diciembre de 2026 en Simití: nuestras matronas, pescadores, emprendedores y familias son protagonistas de una tradición que nos llena de orgullo. Ven con tu familia. Video: Tatiana Guerra Pallares.",
+          "whatsapp": "573052577821"
+        },
+        {
+          "nombre": "Festival del Bocachico · Teaser",
           "tipo": "video",
           "url": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/teaser-festival-bocachico.mp4",
           "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/teaser-festival-bocachico.jpg",
           "color": "#B45309",
-          "detalle": "Muy pronto · Fecha por confirmar",
-          "etiqueta": "MUY PRONTO",
+          "detalle": "La cuenta regresiva · 5 y 6 de diciembre",
+          "etiqueta": "TEASER",
           "descripcion": "¡La cuenta regresiva ha comenzado! El Festival del Bocachico, una tradición de Simití, llega muy pronto. Pronto anunciamos la fecha.",
           "whatsapp": "573052577821"
         }
