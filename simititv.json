@@ -110,19 +110,7 @@
     },
     {
       "titulo": "En vivo ahora",
-      "items": [
-        {
-          "nombre": "En vivo · Petewin Sports San Blas",
-          "tipo": "iframe",
-          "url": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1496604202325782&show_text=false&autoplay=true",
-          "color": "#1877F2",
-          "etiqueta": "● EN VIVO",
-          "detalle": "Transmisión: Petewin Sports San Blas",
-          "descripcion": "Transmisión en vivo de Petewin Sports San Blas (Facebook), compartida en Simití TV con su permiso. Partidos en vivo y eventos culturales del sur de Bolívar.",
-          "hasta": "2026-11-17",
-          "lugar": "San Blas, sur de Bolívar"
-        }
-      ]
+      "items": []
     },
     {
       "titulo": "Historias de Simití",
