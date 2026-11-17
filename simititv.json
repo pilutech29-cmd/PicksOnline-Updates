@@ -179,6 +179,77 @@
       ]
     },
     {
+      "titulo": "Postales de Simití",
+      "items": [
+        {
+          "nombre": "Atardecer sobre Simití",
+          "tipo": "foto",
+          "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/postales/atardecer-simiti.jpg",
+          "credito": "Foto enviada por un paisano"
+        },
+        {
+          "nombre": "Pescadores en la ciénaga",
+          "tipo": "foto",
+          "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/postales/pescadores-en-canoa.jpg",
+          "credito": "Maida"
+        },
+        {
+          "nombre": "Casa a orillas de la ciénaga",
+          "tipo": "foto",
+          "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/postales/casa-sobre-la-cienaga.jpg",
+          "credito": "Foto enviada por un paisano"
+        },
+        {
+          "nombre": "La plaza y la iglesia",
+          "tipo": "foto",
+          "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/postales/plaza-pila-iglesia.jpg",
+          "credito": "Nelson Quintana Díaz"
+        },
+        {
+          "nombre": "Noche de fiestas en la iglesia",
+          "tipo": "foto",
+          "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/postales/fiestas-iglesia-noche.jpg",
+          "credito": "Mundo iskardiano"
+        },
+        {
+          "nombre": "Simití desde el aire",
+          "tipo": "foto",
+          "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/postales/simiti-aereo-1.jpg",
+          "credito": "Foto enviada por un paisano"
+        },
+        {
+          "nombre": "El pueblo sobre la ciénaga",
+          "tipo": "foto",
+          "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/postales/simiti-aereo-2.jpg",
+          "credito": "Foto enviada por un paisano"
+        },
+        {
+          "nombre": "Anochecer con canoas",
+          "tipo": "foto",
+          "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/postales/anochecer-canoas.jpg",
+          "credito": "Foto enviada por un paisano"
+        },
+        {
+          "nombre": "El cerro y la ciénaga",
+          "tipo": "foto",
+          "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/postales/cerro-y-cienaga.jpg",
+          "credito": "Foto enviada por un paisano"
+        },
+        {
+          "nombre": "Orilla de la ciénaga",
+          "tipo": "foto",
+          "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/postales/orilla-cienaga.jpg",
+          "credito": "Foto enviada por un paisano"
+        },
+        {
+          "nombre": "Calles de Simití",
+          "tipo": "foto",
+          "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/postales/calle-simiti.jpg",
+          "credito": "Foto enviada por un paisano"
+        }
+      ]
+    },
+    {
       "titulo": "Negocios del pueblo",
       "items": [
         {
