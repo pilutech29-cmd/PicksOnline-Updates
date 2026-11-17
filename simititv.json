@@ -109,6 +109,21 @@
       ]
     },
     {
+      "titulo": "En vivo ahora",
+      "items": [
+        {
+          "nombre": "En vivo ahora · desde Facebook",
+          "tipo": "iframe",
+          "url": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1496604202325782&show_text=false&autoplay=true",
+          "color": "#1877F2",
+          "etiqueta": "● EN VIVO",
+          "detalle": "Transmisión de Facebook, con permiso de sus realizadores",
+          "descripcion": "Transmisión en vivo desde Facebook, compartida en Simití TV con permiso de sus realizadores.",
+          "hasta": "2026-11-17"
+        }
+      ]
+    },
+    {
       "titulo": "Historias de Simití",
       "items": [
         {
@@ -604,10 +619,6 @@
           "whatsapp": "573052577821"
         }
       ]
-    },
-    {
-      "titulo": "En vivo ahora",
-      "items": []
     },
     {
       "titulo": "Fiestas patronales",
