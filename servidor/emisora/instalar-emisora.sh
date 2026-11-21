@@ -2,6 +2,7 @@
 # Simití TV · instala la EMISORA CON MARCO (video en ventana + anunciantes + cintillo), salida HLS, sin YouTube.
 # Uso:  curl -fsSL https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/emisora/instalar-emisora.sh | sudo bash
 set -euo pipefail
+main() {
 BASE="https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/emisora"
 D=/opt/simititv/emisora
 echo "== Simití TV: instalando la emisora =="
@@ -26,7 +27,7 @@ nginx -t && systemctl enable --now nginx >/dev/null 2>&1 && systemctl reload ngi
 if command -v ufw >/dev/null && ufw status | grep -q active; then ufw allow 'Nginx Full' >/dev/null || true; fi
 
 echo "== Bajando y preparando videos (puede tardar unos minutos la primera vez) =="
-"$D/sincronizar-emisora.sh"
+"$D/sincronizar-emisora.sh" < /dev/null
 ( crontab -l 2>/dev/null | grep -v sincronizar-emisora.sh; echo "*/30 * * * * $D/sincronizar-emisora.sh >> /var/log/simititv-emisora-sync.log 2>&1" ) | crontab -
 
 systemctl daemon-reload
@@ -41,3 +42,5 @@ if systemctl is-active --quiet simititv-emisora && [ -s /var/www/hls/simiti.m3u8
 else
   echo "⚠️  Revisa esto y mándaselo a Claude:"; journalctl -u simititv-emisora -n 30 --no-pager
 fi
+}
+main "$@" < /dev/null
