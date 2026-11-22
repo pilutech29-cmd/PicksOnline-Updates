@@ -2,11 +2,11 @@
   "_instrucciones": "Contenido de la app Simití TV. 'envivo' = canal principal. 'publicidad' = banners que rotan arriba (imagen o texto, whatsapp del negocio, 'hasta' = fecha en que deja de salir, AAAA-MM-DD). En 'secciones', cada item: tipo iframe (YouTube en vivo: https://www.youtube.com/embed/live_stream?channel=ID&autoplay=1 , o un video: https://www.youtube.com/embed/ID), hls (enlace .m3u8 del servidor propio), embed (reproductor tipo Teveo), audio (radio), aviso (negocio), nota (noticia). 'lugar' = desde dónde transmiten. 'hasta' también sirve en cualquier item. Las secciones sin items no se muestran.",
   "envivo": {
     "nombre": "Simití TV",
-    "tipo": "hls",
-    "url": "https://senal.simititv.com/hls/simiti.m3u8",
+    "tipo": "iframe",
+    "url": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fv%2F1A9VGBhwaV%2F&show_text=false&autoplay=true",
     "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/portada-capilla-iglesia.jpg",
-    "detalle": "Simití TV 24/7 · videos del pueblo, anunciantes y eventos",
-    "etiqueta": "● EN VIVO 24/7",
+    "detalle": "En vivo ahora · Petewin Sports San Blas",
+    "etiqueta": "● EN VIVO",
     "sinTexto": true,
     "_envivo": "Cuando haya transmisión en vivo: url = https://www.youtube.com/embed/live_stream?channel=UCsMrIcaZOaKmeyyn0WOsV-Q&autoplay=1&cc_load_policy=0 , etiqueta = ● EN VIVO",
     "_programacion": "Intro: Simití Bolívar, Tierra encantadora y bella (Alcaldía Simití Bolívar) + tráiler Simití, memoria viva",
@@ -19,6 +19,12 @@
       "url": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/simiti-desde-el-aire.mp4",
       "detalle": "Simití desde el aire · video con dron",
       "etiqueta": "▶ PROGRAMACIÓN"
+    },
+    "_emisora": {
+      "tipo": "hls",
+      "url": "https://senal.simititv.com/hls/simiti.m3u8",
+      "detalle": "Simití TV 24/7 · videos del pueblo, anunciantes y eventos",
+      "etiqueta": "● EN VIVO 24/7"
     }
   },
   "whatsapp": "573052577821",
