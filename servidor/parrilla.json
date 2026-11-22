@@ -1,5 +1,5 @@
 {
-  "_instrucciones": "Videos propios (o con permiso escrito) que se emiten en bucle 24/7. musica = mp3/m4a de fondo con permiso, o vacío para silencio. EMISORA: publicidad = videos de anunciantes que entran cada 'cadaCuantos' videos, turnándose; 'hasta' = último día que sale. cintillo = textos que pasan abajo.",
+  "_instrucciones": "Videos propios (o con permiso escrito) que se emiten en bucle 24/7. musica = mp3/m4a de fondo con permiso, o vacío para silencio. EMISORA: publicidad = videos de anunciantes que entran cada 'cadaCuantos' videos, turnándose; 'desde'/'hasta' = primer y último día que sale. cintillo = textos que pasan abajo.",
   "videos": [
     "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/cortinillas/cortinilla-c1-bienvenida.mp4",
     "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/simiti-desde-el-aire.mp4",
@@ -49,6 +49,26 @@
     },
     {
       "texto": "Envíanos tus fotos y videos del pueblo · contacto@simititv.com"
+    },
+    {
+      "texto": "7 de diciembre: Día de las Velitas · ¡Iluminemos a Simití!",
+      "desde": "2026-12-01",
+      "hasta": "2026-12-08"
+    },
+    {
+      "texto": "Novenas de aguinaldo del 16 al 24 de diciembre · ¡Celebremos en familia!",
+      "desde": "2026-12-10",
+      "hasta": "2026-12-24"
+    },
+    {
+      "texto": "¡Feliz Navidad, Simití! Simití TV les desea paz, unión y alegría",
+      "desde": "2026-12-15",
+      "hasta": "2026-12-26"
+    },
+    {
+      "texto": "Despedimos el 2026 juntos · ¡Feliz Año Nuevo 2027!",
+      "desde": "2026-12-27",
+      "hasta": "2027-01-06"
     }
   ]
 }

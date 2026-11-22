@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Simití TV · baja la parrilla, la publicidad y los marcos; prepara los videos (960x540); arma la lista:
-# cada N videos entra un anuncio, turnándose. Lo vencido ('hasta') sale solo. Reinicia la emisora si algo cambió.
+# cada N videos entra un anuncio, turnándose. 'desde'/'hasta' = fechas en que sale cada cosa. Reinicia la emisora si algo cambió.
 set -uo pipefail
 D=/opt/simititv/emisora
 BASE="https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor"
@@ -17,7 +17,7 @@ preparar() {  # url -> imprime la ruta normalizada (o nada si falla)
   [ -s "$g" ] && echo "$D/$g"
 }
 mapfile -t C < <(for u in $(jq -r '.videos[]' parrilla.nueva); do preparar "$u"; done)
-mapfile -t A < <(for u in $(jq -r --arg h "$HOY" '(.publicidad // [])[] | select((.hasta // "9999") >= $h) | .url' parrilla.nueva); do preparar "$u"; done)
+mapfile -t A < <(for u in $(jq -r --arg h "$HOY" '(.publicidad // [])[] | select((.hasta // "9999") >= $h and (.desde // "0000") <= $h) | .url' parrilla.nueva); do preparar "$u"; done)
 N=$(jq -r '.cadaCuantos // 3' parrilla.nueva)
 
 : > lista.nueva
@@ -34,15 +34,16 @@ else
 fi
 
 # Cintillo
-jq -r --arg h "$HOY" '[(.cintillo // [])[] | select((.hasta // "9999") >= $h) | .texto] | join("     ●     ")' parrilla.nueva > cintillo.nuevo
+jq -r --arg h "$HOY" '[(.cintillo // [])[] | select((.hasta // "9999") >= $h and (.desde // "0000") <= $h) | .texto] | join("     ●     ")' parrilla.nueva > cintillo.nuevo
 if [ -s cintillo.nuevo ] && [ "$(tr -d '[:space:]' < cintillo.nuevo)" != "" ]; then sed -i 's/$/     ●     /' cintillo.nuevo; cmp -s cintillo.nuevo cintillo.txt || mv cintillo.nuevo cintillo.txt; fi
 rm -f cintillo.nuevo
 
 # Marcos (anunciantes), uno cada 20 s
 curl -fsSL "$BASE/emisora/marcos/lista.txt?t=$(date +%s)" -o marcos/lista.txt || true
 : > marcos.nuevo
-while read -r m h; do [ -n "${m:-}" ] || continue
+while read -r m h d; do [ -n "${m:-}" ] || continue
   [ -n "${h:-}" ] && [[ "$h" < "$HOY" ]] && continue
+  [ -n "${d:-}" ] && [[ "$HOY" < "$d" ]] && continue
   curl -fsSL "$BASE/emisora/marcos/$m?t=$(date +%s)" -o "marcos/$m.part" && mv "marcos/$m.part" "marcos/$m"
   [ -s "marcos/$m" ] && { echo "file '$D/marcos/$m'"; echo "duration 20"; } >> marcos.nuevo
 done < marcos/lista.txt
