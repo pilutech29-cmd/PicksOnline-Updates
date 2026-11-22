@@ -1,33 +1,10 @@
 {
   "_instrucciones": "Videos propios (o con permiso escrito) que se emiten en bucle 24/7. musica = mp3/m4a de fondo con permiso, o vacío para silencio. EMISORA: publicidad = videos de anunciantes que entran cada 'cadaCuantos' videos, turnándose; 'desde'/'hasta' = primer y último día que sale. cintillo = textos que pasan abajo.",
   "videos": [
-    "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/cortinillas/cortinilla-c1-bienvenida.mp4",
-    "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/simiti-desde-el-aire.mp4",
-    "https://github.com/pilutech29-cmd/PicksOnline-Updates/releases/download/media/cienaga-normal.mp4",
-    "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/atardeceres-cienaga.mp4",
-    "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/festival-pescador-2.mp4",
-    "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/cortinillas/cortinilla-c2-web.mp4"
+    "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/imagen-fija-pescadores.mp4"
   ],
   "musica": "",
-  "publicidad": [
-    {
-      "nombre": "Festival del Bocachico",
-      "url": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/festival-bocachico-2026.mp4",
-      "hasta": "2026-12-06"
-    },
-    {
-      "nombre": "Maurello's Coffe",
-      "url": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/maurellos-coffe.mp4"
-    },
-    {
-      "nombre": "D'Marol Gourmet",
-      "url": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/dmarol-gourmet.mp4"
-    },
-    {
-      "nombre": "Anuncia tu negocio",
-      "url": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/cortinillas/cortinilla-c3-negocios.mp4"
-    }
-  ],
+  "publicidad": [],
   "cadaCuantos": 3,
   "cintillo": [
     {
@@ -69,6 +46,33 @@
       "texto": "Despedimos el 2026 juntos · ¡Feliz Año Nuevo 2027!",
       "desde": "2026-12-27",
       "hasta": "2027-01-06"
+    }
+  ],
+  "_videosGuardados": [
+    "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/cortinillas/cortinilla-c1-bienvenida.mp4",
+    "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/simiti-desde-el-aire.mp4",
+    "https://github.com/pilutech29-cmd/PicksOnline-Updates/releases/download/media/cienaga-normal.mp4",
+    "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/atardeceres-cienaga.mp4",
+    "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/festival-pescador-2.mp4",
+    "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/cortinillas/cortinilla-c2-web.mp4"
+  ],
+  "_publicidadGuardada": [
+    {
+      "nombre": "Festival del Bocachico",
+      "url": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/festival-bocachico-2026.mp4",
+      "hasta": "2026-12-06"
+    },
+    {
+      "nombre": "Maurello's Coffe",
+      "url": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/maurellos-coffe.mp4"
+    },
+    {
+      "nombre": "D'Marol Gourmet",
+      "url": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/dmarol-gourmet.mp4"
+    },
+    {
+      "nombre": "Anuncia tu negocio",
+      "url": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/cortinillas/cortinilla-c3-negocios.mp4"
     }
   ]
 }
