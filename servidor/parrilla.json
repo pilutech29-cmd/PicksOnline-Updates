@@ -1,10 +1,43 @@
 {
   "_instrucciones": "Videos propios (o con permiso escrito) que se emiten en bucle 24/7. musica = mp3/m4a de fondo con permiso, o vacío para silencio. EMISORA: publicidad = videos de anunciantes que entran cada 'cadaCuantos' videos, turnándose; 'desde'/'hasta' = primer y último día que sale. cintillo = textos que pasan abajo.",
   "videos": [
-    "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/imagen-fija-pescadores.mp4"
+    "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/rotacion/postal-simiti-aereo-2.mp4",
+    "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/rotacion/postal-plaza-pila-iglesia.mp4",
+    "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/rotacion/postal-pescadores-en-canoa.mp4",
+    "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/rotacion/postal-atardecer-simiti.mp4",
+    "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/rotacion/postal-casa-sobre-la-cienaga.mp4",
+    "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/rotacion/postal-calle-simiti.mp4",
+    "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/rotacion/postal-cerro-y-cienaga.mp4",
+    "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/rotacion/postal-orilla-cienaga.mp4",
+    "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/rotacion/postal-simiti-aereo-1.mp4",
+    "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/rotacion/postal-fiestas-iglesia-noche.mp4",
+    "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/rotacion/postal-anochecer-canoas.mp4"
   ],
   "musica": "",
-  "publicidad": [],
+  "publicidad": [
+    {
+      "nombre": "Festival del Bocachico",
+      "url": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/rotacion/banner-festival-bocachico.mp4",
+      "hasta": "2026-12-06"
+    },
+    {
+      "nombre": "Maurello's Coffe",
+      "url": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/rotacion/banner-maurellos.mp4"
+    },
+    {
+      "nombre": "Mercado Campesino",
+      "url": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/rotacion/banner-mercado-campesino.mp4",
+      "hasta": "2026-11-29"
+    },
+    {
+      "nombre": "D'Marol Gourmet",
+      "url": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/rotacion/banner-dmarol.mp4"
+    },
+    {
+      "nombre": "Anuncia tu negocio",
+      "url": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/rotacion/banner-negocios.mp4"
+    }
+  ],
   "cadaCuantos": 3,
   "cintillo": [
     {
