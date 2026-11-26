@@ -139,6 +139,14 @@
           "descripcion": "Historias y anécdotas de nuestra gente, contadas en una tienda del pueblo. Producción de Simití TV."
         },
         {
+          "nombre": "Baile típico de Simití",
+          "tipo": "video",
+          "url": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/baile-tipico-cesar-navarro.mp4",
+          "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/baile-tipico-cesar-navarro.jpg",
+          "detalle": "Video: César David Navarro Mier · El Joven Ribereño",
+          "descripcion": "Polleras, sombreros y tradición: un baile típico de nuestro pueblo, grabado por César David Navarro Mier, El Joven Ribereño."
+        },
+        {
           "nombre": "Costumbres y dichos de Simití",
           "tipo": "iframe",
           "url": "https://www.youtube.com/embed/f_2X1tjYqzA?autoplay=1&cc_load_policy=0&hl=es",
