@@ -131,6 +131,14 @@
       "titulo": "Historias de Simití",
       "items": [
         {
+          "nombre": "Vivencias de mi pueblo",
+          "tipo": "video",
+          "url": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/vivencias-de-mi-pueblo.mp4",
+          "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/vivencias-de-mi-pueblo.jpg",
+          "detalle": "Grabado por Cristian · Simití TV",
+          "descripcion": "Historias y anécdotas de nuestra gente, contadas en una tienda del pueblo. Producción de Simití TV."
+        },
+        {
           "nombre": "Costumbres y dichos de Simití",
           "tipo": "iframe",
           "url": "https://www.youtube.com/embed/f_2X1tjYqzA?autoplay=1&cc_load_policy=0&hl=es",
