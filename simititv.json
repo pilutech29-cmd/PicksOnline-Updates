@@ -217,6 +217,12 @@
       "titulo": "Postales de Simití",
       "items": [
         {
+          "nombre": "La atarraya",
+          "tipo": "foto",
+          "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/postales/la-atarraya-cesar-navarro.jpg",
+          "credito": "César David Navarro Mier · El Joven Ribereño"
+        },
+        {
           "nombre": "Atardecer sobre Simití",
           "tipo": "foto",
           "imagen": "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/simititv-img/postales/atardecer-simiti.jpg",
