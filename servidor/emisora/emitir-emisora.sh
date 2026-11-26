@@ -16,5 +16,5 @@ exec ffmpeg -nostdin -hide_banner -loglevel warning \
   -filter_complex "$FILTRO" -map "[v]" -map 0:a:0 \
   -c:v libx264 -preset veryfast -b:v 1500k -maxrate 1800k -bufsize 3000k -g 50 -keyint_min 50 -sc_threshold 0 \
   -c:a aac -b:a 128k -ar 44100 -ac 2 \
-  -f hls -hls_time 4 -hls_list_size 8 -hls_flags delete_segments+omit_endlist+independent_segments+append_list+discont_start \
+  -f hls -hls_time 4 -hls_list_size 15 -hls_delete_threshold 15 -hls_flags delete_segments+omit_endlist+independent_segments+append_list+discont_start \
   -hls_segment_filename "$OUT/simiti%05d.ts" "$OUT/simiti.m3u8"
