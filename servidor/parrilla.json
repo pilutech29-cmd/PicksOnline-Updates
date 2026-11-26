@@ -1,11 +1,6 @@
 {
   "_instrucciones": "Videos propios (o con permiso escrito) que se emiten en bucle 24/7. musica = mp3/m4a de fondo con permiso, o vacío para silencio. EMISORA: publicidad = videos de anunciantes que entran cada 'cadaCuantos' videos, turnándose; 'desde'/'hasta' = primer y último día que sale. cintillo = textos que pasan abajo.",
   "videos": [
-    "file:///var/www/hls/colectivo/QygzfynEjhE.mp4",
-    "file:///var/www/hls/colectivo/7UxJyLrPRqU.mp4",
-    "file:///var/www/hls/colectivo/OMOvLi8MZX8.mp4",
-    "file:///var/www/hls/colectivo/RyNlRn_9ezQ.mp4",
-    "file:///var/www/hls/colectivo/S4zscySQ8ok.mp4",
     "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/rotacion/postal-simiti-aereo-2.mp4",
     "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/rotacion/postal-plaza-pila-iglesia.mp4",
     "https://raw.githubusercontent.com/pilutech29-cmd/PicksOnline-Updates/main/servidor/videos/rotacion/postal-pescadores-en-canoa.mp4",
@@ -47,9 +42,6 @@
   "cintillo": [
     {
       "texto": "Bienvenidos a Simití TV, el canal de nuestro pueblo"
-    },
-    {
-      "texto": "Simití, memoria viva · Una producción del Colectivo «Pescado, Sombrero y Tambó»"
     },
     {
       "texto": "Hoy 8 p. m.: estreno de Vivencias de mi pueblo, historias de nuestra gente",
