@@ -3,7 +3,7 @@
 D=${EMISORA_DIR:-/opt/simititv/emisora}
 OUT=${HLS_DIR:-/var/www/hls}
 F=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf
-mkdir -p "$OUT"; rm -f "$OUT"/simiti*.ts "$OUT"/simiti.m3u8
+mkdir -p "$OUT"   # sin borrar: así la app no se corta al volver de una transmisión en vivo
 FILTRO="[1:v]fps=25,scale=1280:720,format=yuv420p[bg];\
 [bg][0:v]overlay=21:21:shortest=0[a];\
 [a]drawtext=fontfile=$F:textfile=$D/cintillo.txt:reload=1:fontsize=18:fontcolor=white:y=696:x=w-mod(t*90\,w+tw)[b];\
@@ -16,5 +16,5 @@ exec ffmpeg -nostdin -hide_banner -loglevel warning \
   -filter_complex "$FILTRO" -map "[v]" -map 0:a:0 \
   -c:v libx264 -preset veryfast -b:v 1500k -maxrate 1800k -bufsize 3000k -g 50 -keyint_min 50 -sc_threshold 0 \
   -c:a aac -b:a 128k -ar 44100 -ac 2 \
-  -f hls -hls_time 4 -hls_list_size 8 -hls_flags delete_segments+omit_endlist+independent_segments \
+  -f hls -hls_time 4 -hls_list_size 8 -hls_flags delete_segments+omit_endlist+independent_segments+append_list+discont_start \
   -hls_segment_filename "$OUT/simiti%05d.ts" "$OUT/simiti.m3u8"

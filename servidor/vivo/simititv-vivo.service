@@ -1,0 +1,10 @@
+[Unit]
+Description=Simití TV - transmisión en vivo desde OBS (reemplaza la parrilla mientras dura)
+Conflicts=simititv-emisora.service
+After=nginx.service
+
+[Service]
+Environment=TZ=America/Bogota
+ExecStart=/opt/simititv/vivo/relevo-vivo.sh
+ExecStopPost=/usr/bin/systemctl start --no-block simititv-emisora
+Restart=no
