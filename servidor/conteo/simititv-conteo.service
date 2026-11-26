@@ -1,0 +1,11 @@
+[Unit]
+Description=Simití TV - contador de espectadores
+After=nginx.service
+
+[Service]
+ExecStart=/opt/simititv/conteo/contar.sh
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
